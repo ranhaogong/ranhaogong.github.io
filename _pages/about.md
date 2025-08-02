@@ -13,29 +13,29 @@ Hi! I am Haoran Gong. I am currently a first-year graduate student at [Xi'an Jia
 
 # Publications {#publications}
 - [**Multilateral Cascading Network for Semantic Segmentation of Large-Scale Outdoor Point Clouds**](https://doi.org/10.1109/LGRS.2025.3547913)  
-    **Haoran Gong**, Haodong Wang, Di Wang  
-  IEEE Geoscience and Remote Sensing Letters (GRSL)  
-  March 2025
+      **Haoran Gong**, Haodong Wang, Di Wang  
+    IEEE Geoscience and Remote Sensing Letters (GRSL)  
+    March 2025
 
 - **Robust Building Wireframe Reconstruction: A Hypergraph and Transformer-Enhanced Framework for Large-Scale and Real-World Urban Point Clouds**  
-  **Haoran Gong**, Jing Liu, Rui Tong, Fuqiang Tian, Di Wang  
-  International Journal of Remote Sensing (IJRS), Manuscript Submitted  
-  July 2025
-  
+    **Haoran Gong**, Jing Liu, Rui Tong, Fuqiang Tian, Di Wang  
+    International Journal of Remote Sensing (IJRS)  
+    July 2025, Manuscript Submitted
+
 - **Enhancing 3D Instance Segmentation with Dense Connection Decoder and Layer-Aware Fusion**  
-  Duanchu Wang, **Haoran Gong**, Di Wang  
-  IEEE Robotics and Automation Letters (RA-L), Revised Manuscript Submitted  
-  April 2025
+    Duanchu Wang, **Haoran Gong**, Di Wang  
+    IEEE Robotics and Automation Letters (RA-L)  
+    April 2025, Revised Manuscript Submitted
 
 - [**Advancing the Understanding of Fine-Grained 3D Forest Structures using Digital Cousins and Simulation-to-Reality: Methods and Datasets**](https://arxiv.org/abs/2501.03637)  
-  Jing Liu, Duanchu Wang, **Haoran Gong**, Chongyu Wang, Jihua Zhu, Di Wang  
-  Remote Sensing of Environment (RSE), Under Review  
-  January 2025
+    Jing Liu, Duanchu Wang, **Haoran Gong**, Chongyu Wang, Jihua Zhu, Di Wang  
+    Remote Sensing of Environment (RSE)  
+    January 2025, Under Review
 
 - [**CompetitorFormer: Competitor Transformer for 3D Instance Segmentation**](https://arxiv.org/abs/2411.14179)  
-  Duanchu Wang, Jing Liu, **Haoran Gong**, Yinghui Quan, Di Wang  
-  Preprint  
-  November 2024
+    Duanchu Wang, Jing Liu, **Haoran Gong**, Yinghui Quan, Di Wang  
+    Preprint  
+    November 2024
 
 # :tada: Honors and Awards {#honors-and-awards}
 - **CVPR Workshop 2025**, Building3D Competition, **2<sup>nd</sup> PLACE**, [News](https://mp.weixin.qq.com/s/14O0uiMHNy9SlDY9Ed-Xrw)
