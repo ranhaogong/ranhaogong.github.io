@@ -50,7 +50,7 @@ Hi! I am Haoran Gong (公昊苒). I am currently a first-year graduate student a
 - **Second-class Scholarship of JLU (twice)**, October 2023/2021  
 
 # :microscope: Work Experience {#work-experience}
-- **The Hong Kong University of Science and Technology (Guangzhou)**, AI4CITY Lab, Supervised by [Prof. Wufan Zhao](https://wufan-zhao.github.io/), Visiting Student
+- **The Hong Kong University of Science and Technology (Guangzhou)**, AI4CITY Lab, Supervised by [Prof. Wufan Zhao](https://wufan-zhao.github.io/), Visiting Student  
   Aug 2025 – Jan 2026  
   
 # :blue_book: Education {#education}
