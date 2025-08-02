@@ -48,11 +48,15 @@ Hi! I am Haoran Gong (公昊苒). I am currently a first-year graduate student a
 - **Academic and Technological Award of JLU**, October 2022  
 - **Outstanding Student of the College of Software of JLU (twice)**, October 2023/2021  
 - **Second-class Scholarship of JLU (twice)**, October 2023/2021  
+
+# :microscope: Work Experience {#work-experience}
+- **The Hong Kong University of Science and Technology (Guangzhou)**, Visiting Student  
+  August 2025 - January 2026  
   
 # :blue_book: Education {#education}
 
 - **Jilin University**, BSc in Software Engineering  
-  **Sept 2020 – June 2024**
+  Sept 2020 – June 2024  
 
 - **Xi'an Jiaotong University**, MSc in Computer Science  
-  **Sept 2024 – Present**  
+  Sept 2024 – Present  
