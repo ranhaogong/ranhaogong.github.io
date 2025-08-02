@@ -20,13 +20,13 @@ Hi! I am Haoran Gong. I am currently a first-year graduate student at [Xi'an Jia
 - **Robust Building Wireframe Reconstruction: A Hypergraph and Transformer-Enhanced Framework for Large-Scale and Real-World Urban Point Clouds**  
     **Haoran Gong**, Jing Liu, Rui Tong, Fuqiang Tian, Di Wang  
     International Journal of Remote Sensing (IJRS)  
-    Manuscript Submitted
+    Manuscript Submitted  
     July 2025
 
 - **Enhancing 3D Instance Segmentation with Dense Connection Decoder and Layer-Aware Fusion**  
     Duanchu Wang, **Haoran Gong**, Di Wang  
     IEEE Robotics and Automation Letters (RA-L)  
-    Revised Manuscript Submitted
+    Revised Manuscript Submitted  
     April 2025
 
 - [**Advancing the Understanding of Fine-Grained 3D Forest Structures using Digital Cousins and Simulation-to-Reality: Methods and Datasets**](https://arxiv.org/abs/2501.03637)  
