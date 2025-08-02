@@ -9,7 +9,7 @@ redirect_from:
 
 # :mag_right: About Me {#about-me}
 
-Hi! I am Haoran Gong (公昊苒). I am currently a first-year graduate student at [Xi'an Jiaotong University](https://www.xjtu.edu.cn/), 3DSAIL Lab, supervised by [Prof. Di Wang](https://gr.xjtu.edu.cn/en/web/diwang). I obtained my bachelor's degree from [Jilin University](https://www.jlu.edu.cn/). My research interests include computer vision, point clouds, and 3D reconstruction.
+Hi! I am Haoran Gong (公昊苒). I am currently a first-year graduate student at [Xi'an Jiaotong University](https://www.xjtu.edu.cn/), 3DSAIL Lab, supervised by [Di Wang](https://gr.xjtu.edu.cn/en/web/diwang). I obtained my bachelor's degree from [Jilin University](https://www.jlu.edu.cn/). My research interests include computer vision, point clouds, and 3D reconstruction.
 
 # Publications {#publications}
 - [**Multilateral Cascading Network for Semantic Segmentation of Large-Scale Outdoor Point Clouds**](https://doi.org/10.1109/LGRS.2025.3547913)  
@@ -50,7 +50,7 @@ Hi! I am Haoran Gong (公昊苒). I am currently a first-year graduate student a
 - **Second-class Scholarship of JLU (twice)**, October 2023/2021  
 
 # :microscope: Work Experience {#work-experience}
-- **The Hong Kong University of Science and Technology (Guangzhou)**, AI4CITY Lab, Supervised by [Prof. Wufan Zhao](https://wufan-zhao.github.io/), Visiting Student  
+- **The Hong Kong University of Science and Technology (Guangzhou)**, AI4CITY Lab, Supervised by [Wufan Zhao](https://wufan-zhao.github.io/), Visiting Student  
   Aug 2025 – Jan 2026  
   
 # :blue_book: Education {#education}
