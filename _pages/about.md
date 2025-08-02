@@ -38,11 +38,17 @@ Hi! I am Haoran Gong (公昊苒). I am currently a first-year graduate student a
 - [**CompetitorFormer: Competitor Transformer for 3D Instance Segmentation**](https://arxiv.org/abs/2411.14179)  
     Duanchu Wang, Jing Liu, **Haoran Gong**, Yinghui Quan, Di Wang  
     Preprint  
-    November 2024
+    November 2024  
 
 # :tada: Honors and Awards {#honors-and-awards}
 - **CVPR Workshop 2025**, Building3D Competition, **2<sup>nd</sup> PLACE**, [News](https://mp.weixin.qq.com/s/14O0uiMHNy9SlDY9Ed-Xrw)
-
+- **First-Class Freshman Scholarship of XJTU**, October 2024  
+- **Outstanding Student of JLU**, October 2022  
+- **First-class Scholarship of JLU**, October 2022  
+- **Academic and Technological Award of JLU**, October 2022  
+- **Outstanding Student of the College of Software of JLU (twice)**, October 2023/2021  
+- **Second-class Scholarship of JLU (twice)**, October 2023/2021  
+  
 # :blue_book: Education {#education}
 
 - **Jilin University**, BSc in Software Engineering  
