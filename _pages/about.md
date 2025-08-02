@@ -13,4 +13,4 @@ Hi! I am Haoran Gong. I am currently a first-year graduate student at [Xi'an Jia
 
 
 # Honors and Awards
-- \textbf{CVPR Workshop 2025}, Building3D Competition, \textbf{2\textsuperscript{nd}} \textbf{PLACE}, \href{https://gr.xjtu.edu.cn/en/web/diwang/home?p_p_id=cn_edu_xjtu_news_NewsPortlet&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_cn_edu_xjtu_news_NewsPortlet_mvcRenderCommandName=%2Fnews%2Fview_news&_cn_edu_xjtu_news_NewsPortlet_redirect=%2Fen%2Fweb%2Fdiwang&_cn_edu_xjtu_news_NewsPortlet_newsId=17271514}{\faNewspaper\ News}
+- **CVPR Workshop 2025**, Building3D Competition, **2<sup>nd</sup> PLACE**, [News](https://gr.xjtu.edu.cn/en/web/diwang/home?p_p_id=cn_edu_xjtu_news_NewsPortlet&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_cn_edu_xjtu_news_NewsPortlet_mvcRenderCommandName=%2Fnews%2Fview_news&_cn_edu_xjtu_news_NewsPortlet_redirect=%2Fen%2Fweb%2Fdiwang&_cn_edu_xjtu_news_NewsPortlet_newsId=17271514)
