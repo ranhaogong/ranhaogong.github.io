@@ -45,8 +45,8 @@ Hi! I am Haoran Gong. I am currently a first-year graduate student at [Xi'an Jia
 
 # :blue_book: Education {#education}
 
-- **Sept 2020 – June 2024**  
-  **Jilin University**, BSc in Software Engineering  
+- **Jilin University**, BSc in Software Engineering  
+  **Sept 2020 – June 2024**
 
-- **Sept 2024 – Present**  
-  **Xi'an Jiaotong University**, MSc in Computer Science  
+- **Xi'an Jiaotong University**, MSc in Computer Science  
+  **Sept 2024 – Present**  
