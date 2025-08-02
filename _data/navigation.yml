@@ -24,6 +24,8 @@ main:
         
   # - title: "Blog Posts"
   #   url: /year-archive/
+  - title: "Work Experience"
+    url: "#work-experience"
   - title: "Education"
     url: "#education"
     
