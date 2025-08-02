@@ -32,7 +32,7 @@ Hi! I am Haoran Gong (公昊苒). I am currently a first-year graduate student a
 - [**Advancing the Understanding of Fine-Grained 3D Forest Structures using Digital Cousins and Simulation-to-Reality: Methods and Datasets**](https://arxiv.org/abs/2501.03637)  
     Jing Liu, Duanchu Wang, **Haoran Gong**, Chongyu Wang, Jihua Zhu, Di Wang  
     Remote Sensing of Environment (RSE)  
-    Under Review
+    Under Review  
     January 2025
 
 - [**CompetitorFormer: Competitor Transformer for 3D Instance Segmentation**](https://arxiv.org/abs/2411.14179)  
