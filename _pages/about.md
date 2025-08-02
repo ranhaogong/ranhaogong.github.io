@@ -51,7 +51,7 @@ Hi! I am Haoran Gong (公昊苒). I am currently a first-year graduate student a
 
 # :microscope: Work Experience {#work-experience}
 - **The Hong Kong University of Science and Technology (Guangzhou)**, Visiting Student  
-  August 2025 – January 2026  
+  Aug 2025 – Jan 2026  
   
 # :blue_book: Education {#education}
 
