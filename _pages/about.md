@@ -15,7 +15,8 @@ Hi! I am Haoran Gong (公昊苒). I am currently a first-year graduate student a
 - [**Multilateral Cascading Network for Semantic Segmentation of Large-Scale Outdoor Point Clouds**](https://doi.org/10.1109/LGRS.2025.3547913)  
       **Haoran Gong**, Haodong Wang, Di Wang  
     IEEE Geoscience and Remote Sensing Letters (GRSL)  
-    March 2025
+    March 2025  
+    Published :yum:
 
 - **Robust Building Wireframe Reconstruction: A Hypergraph and Transformer-Enhanced Framework for Large-Scale and Real-World Urban Point Clouds**  
     **Haoran Gong**, Jing Liu, Rui Tong, Fuqiang Tian, Di Wang  
@@ -26,8 +27,8 @@ Hi! I am Haoran Gong (公昊苒). I am currently a first-year graduate student a
 - **Enhancing 3D Instance Segmentation with Dense Connection Decoder and Layer-Aware Fusion**  
     Duanchu Wang, **Haoran Gong**, Di Wang  
     IEEE Robotics and Automation Letters (RA-L)  
-    Revised Manuscript Submitted  
     April 2025
+    Accepted :yum:
 
 - [**Advancing the Understanding of Fine-Grained 3D Forest Structures using Digital Cousins and Simulation-to-Reality: Methods and Datasets**](https://arxiv.org/abs/2501.03637)  
     Jing Liu, Duanchu Wang, **Haoran Gong**, Chongyu Wang, Jihua Zhu, Di Wang  
