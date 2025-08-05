@@ -27,7 +27,7 @@ Hi! I am Haoran Gong (公昊苒). I am currently a first-year graduate student a
 - **Enhancing 3D Instance Segmentation with Dense Connection Decoder and Layer-Aware Fusion**  
     Duanchu Wang, **Haoran Gong**, Di Wang  
     IEEE Robotics and Automation Letters (RA-L)  
-    April 2025
+    April 2025  
     Accepted :yum:
 
 - [**Advancing the Understanding of Fine-Grained 3D Forest Structures using Digital Cousins and Simulation-to-Reality: Methods and Datasets**](https://arxiv.org/abs/2501.03637)  
