@@ -13,7 +13,8 @@ Hi! I am Haoran Gong (公昊苒). I am currently a first-year graduate student a
 
 # :pushpin:	Publications {#publications}
 - [**Multilateral Cascading Network for Semantic Segmentation of Large-Scale Outdoor Point Clouds**](https://doi.org/10.1109/LGRS.2025.3547913)  
-      **Haoran Gong**, Haodong Wang, Di Wang  
+      **Haoran Gong**, Haodong Wang, Di Wang
+    [Paper](https://doi.org/10.1109/LGRS.2025.3547913) | [Code](https://github.com/ranhaogong/MCNet)  
     IEEE Geoscience and Remote Sensing Letters (GRSL), March 2025  
     Published :yum:
 
@@ -23,17 +24,20 @@ Hi! I am Haoran Gong (公昊苒). I am currently a first-year graduate student a
     Under Review   
 
 - [**Enhancing 3D Instance Segmentation with Dense Connection Decoder and Layer-Aware Fusion**](https://ieeexplore.ieee.org/document/11129153)  
-    Duanchu Wang, **Haoran Gong**, Di Wang  
+    Duanchu Wang, **Haoran Gong**, Di Wang
+    [Paper](https://ieeexplore.ieee.org/document/11129153) | [Code](https://github.com/wdczz/Enhancing-3D-Instance-Segmentation-with-Dense-Connection-Decoder-and-Layer-Aware-Fusion)  
     IEEE Robotics and Automation Letters (RA-L), April 2025  
     Published :yum:
 
 - [**Advancing the Understanding of Fine-Grained 3D Forest Structures using Digital Cousins and Simulation-to-Reality: Methods and Datasets**](https://arxiv.org/abs/2501.03637)  
-    Jing Liu, Duanchu Wang, **Haoran Gong**, Chongyu Wang, Jihua Zhu, Di Wang  
+    Jing Liu, Duanchu Wang, **Haoran Gong**, Chongyu Wang, Jihua Zhu, Di Wang
+    [Paper](https://arxiv.org/abs/2501.03637) | [Dataset](https://boreal3d.github.io/)  
     Remote Sensing of Environment (RSE), January 2025  
     Major Revision  
 
 - [**CompetitorFormer: Competitor Transformer for 3D Instance Segmentation**](https://arxiv.org/abs/2411.14179)  
     Duanchu Wang, Jing Liu, **Haoran Gong**, Yinghui Quan, Di Wang
+    [Paper](https://arxiv.org/abs/2411.14179)  
     November 2024  
     Preprint  
 
