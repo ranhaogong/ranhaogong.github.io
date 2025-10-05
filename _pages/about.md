@@ -9,7 +9,7 @@ redirect_from:
 
 # :mag_right: About Me {#about-me}
 
-Hi! I am Haoran Gong (公昊苒). I am currently a first-year graduate student at [Xi'an Jiaotong University](https://www.xjtu.edu.cn/), 3DSAIL Lab, supervised by [Di Wang](https://gr.xjtu.edu.cn/en/web/diwang). I obtained my bachelor's degree from [Jilin University](https://www.jlu.edu.cn/). My research interests include computer vision, point clouds, and 3D reconstruction.
+Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student at [Xi'an Jiaotong University](https://www.xjtu.edu.cn/), 3DSAIL Lab, supervised by [Di Wang](https://gr.xjtu.edu.cn/en/web/diwang). I obtained my bachelor's degree from [Jilin University](https://www.jlu.edu.cn/). My research interests include computer vision, point clouds, and 3D reconstruction.
 
 # :pushpin:	Publications {#publications}
 - [**Multilateral Cascading Network for Semantic Segmentation of Large-Scale Outdoor Point Clouds**](https://doi.org/10.1109/LGRS.2025.3547913)  
