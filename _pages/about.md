@@ -21,7 +21,6 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
 - **Robust Building Wireframe Reconstruction: A Hypergraph and Transformer-Enhanced Framework for Large-Scale and Real-World Urban Point Clouds**  
     **Haoran Gong**, Jing Liu, Rui Tong, Fuqiang Tian, Di Wang  
     International Journal of Remote Sensing (IJRS), 2025  
-    Major Revision     
 
 - [**Enhancing 3D Instance Segmentation with Dense Connection Decoder and Layer-Aware Fusion**](https://ieeexplore.ieee.org/document/11129153)  
     Duanchu Wang, **Haoran Gong**, Di Wang  
@@ -33,7 +32,7 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
     Jing Liu, Duanchu Wang, **Haoran Gong**, Chongyu Wang, Jihua Zhu, Di Wang  
     [Paper](https://arxiv.org/abs/2501.03637) | [Dataset](https://boreal3d.github.io/)  
     Remote Sensing of Environment (RSE), 2025  
-    Major Revision  
+
 
 - [**CompetitorFormer: Competitor Transformer for 3D Instance Segmentation**](https://arxiv.org/abs/2411.14179)  
     Duanchu Wang, Jing Liu, **Haoran Gong**, Yinghui Quan, Di Wang  
