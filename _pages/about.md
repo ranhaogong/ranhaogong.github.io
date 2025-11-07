@@ -16,23 +16,24 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
       **Haoran Gong**, Haodong Wang, Di Wang  
     [Paper](https://doi.org/10.1109/LGRS.2025.3547913) | [Code](https://github.com/ranhaogong/MCNet)  
     IEEE Geoscience and Remote Sensing Letters (GRSL), 2025  
-    Published :yum:
+
 
 - **Robust Building Wireframe Reconstruction: A Hypergraph and Transformer-Enhanced Framework for Large-Scale and Real-World Urban Point Clouds**  
-    **Haoran Gong**, Jing Liu, Rui Tong, Fuqiang Tian, Di Wang  
+    **Haoran Gong**, Jing Liu, Rui Tong, Fuqiang Tian, Di Wang
+    [Paper](https://doi.org/10.1080/01431161.2025.2583601)  
     International Journal of Remote Sensing (IJRS), 2025  
-    Accepted :yum:
+
 
 - [**Enhancing 3D Instance Segmentation with Dense Connection Decoder and Layer-Aware Fusion**](https://ieeexplore.ieee.org/document/11129153)  
     Duanchu Wang, **Haoran Gong**, Di Wang  
     [Paper](https://ieeexplore.ieee.org/document/11129153) | [Code](https://github.com/wdczz/Enhancing-3D-Instance-Segmentation-with-Dense-Connection-Decoder-and-Layer-Aware-Fusion)  
     IEEE Robotics and Automation Letters (RA-L), 2025  
-    Published :yum:
+
 
 - [**Advancing the Understanding of Fine-Grained 3D Forest Structures using Digital Cousins and Simulation-to-Reality: Methods and Datasets**](https://arxiv.org/abs/2501.03637)  
     Jing Liu, Duanchu Wang, **Haoran Gong**, Chongyu Wang, Jihua Zhu, Di Wang  
     [Paper](https://arxiv.org/abs/2501.03637) | [Dataset](https://boreal3d.github.io/)  
-    Remote Sensing of Environment (RSE), 2025  
+    Preprint, 2025  
 
 
 - [**CompetitorFormer: Competitor Transformer for 3D Instance Segmentation**](https://arxiv.org/abs/2411.14179)  
