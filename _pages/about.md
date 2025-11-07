@@ -18,8 +18,8 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
     IEEE Geoscience and Remote Sensing Letters (GRSL), 2025  
 
 
-- **Robust Building Wireframe Reconstruction: A Hypergraph and Transformer-Enhanced Framework for Large-Scale and Real-World Urban Point Clouds**  
-    **Haoran Gong**, Jing Liu, Rui Tong, Fuqiang Tian, Di Wang
+- [**Robust Building Wireframe Reconstruction: A Hypergraph and Transformer-Enhanced Framework for Large-Scale and Real-World Urban Point Clouds**](https://doi.org/10.1080/01431161.2025.2583601)  
+    **Haoran Gong**, Jing Liu, Rui Tong, Fuqiang Tian, Di Wang  
     [Paper](https://doi.org/10.1080/01431161.2025.2583601)  
     International Journal of Remote Sensing (IJRS), 2025  
 
