@@ -42,7 +42,7 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
     Preprint, 2024  
 
 # :tada: Honors and Awards {#honors-and-awards}
-- **CVPR Workshop 2025**, Building3D Competition, **2<sup>nd</sup> PLACE**, [News](https://mp.weixin.qq.com/s/14O0uiMHNy9SlDY9Ed-Xrw)  
+- **CVPR Workshop 2025**, Building3D Competition, **2<sup>nd</sup> PLACE**, [News](https://mp.weixin.qq.com/s/14O0uiMHNy9SlDY9Ed-Xrw), [Page](https://usm3d.github.io/)    
 - **Special Scholarship of XJTU**, October 2025
 - **Outstanding Graduate Student of XJTU**, October 2025  
 - **First-Class Freshman Scholarship of XJTU**, October 2024  
