@@ -52,11 +52,11 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
 - **Outstanding Student of the College of Software of JLU (twice)**, October 2023/2021  
 - **Second-class Scholarship of JLU (twice)**, October 2023/2021  
 
-# :microscope: Work Experience {#work-experience}
-- <img src="/assets/hkust_logo.png" alt="HKUST(GZ)" width="40" height="40" style="vertical-align: middle; margin-right: 8px;">[**The Hong Kong University of Science and Technology (Guangzhou)**](https://www.hkust-gz.edu.cn/), AI4CITY Lab, Supervised by [Wufan Zhao](https://wufan-zhao.github.io/), Research Assistant  
+# :microscope: Work Experience {#work-experience}  
+<img src="/assets/hkust_logo.png" alt="HKUST(GZ)" width="40" height="40" style="vertical-align: middle; margin-right: 8px;">[**The Hong Kong University of Science and Technology (Guangzhou)**](https://www.hkust-gz.edu.cn/), AI4CITY Lab, Supervised by [Wufan Zhao](https://wufan-zhao.github.io/), Research Assistant  
   Aug 2025 – Present
 
-- [**StepFun**](https://www.stepfun.com/company), AIGC & World Model, Supervised by [Xuanyang Zhang](https://scholar.google.com/citations?user=oPV20eMAAAAJ&hl=zh-CN), Internship  
+[**StepFun**](https://www.stepfun.com/company), AIGC & World Model, Supervised by [Xuanyang Zhang](https://scholar.google.com/citations?user=oPV20eMAAAAJ&hl=zh-CN), Internship  
   Dec 2025 – Present  
   
 # :blue_book: Education {#education}
