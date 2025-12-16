@@ -54,11 +54,11 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
 
 # :microscope: Work Experience {#work-experience}  
 
-- <img src="/assets/hkust_logo.png" alt="HKUST(GZ)" width="80" height="80" style="vertical-align: middle; margin-right: 8px;"> [**The Hong Kong University of Science and Technology (Guangzhou)**](https://www.hkust-gz.edu.cn/)
+- <img src="/assets/hkust_logo.png" alt="HKUST(GZ)" width="80" height="80" style="vertical-align: middle; margin-right: 8px;"> [**The Hong Kong University of Science and Technology (Guangzhou)**](https://www.hkust-gz.edu.cn/)  
   AI4CITY Lab, Supervised by [Wufan Zhao](https://wufan-zhao.github.io/), Research Assistant  
   Aug 2025 – Present
 
-- <img src="/assets/stepfun_logo.png" alt="StepFun" width="80" height="80" style="vertical-align: middle; margin-right: 8px;"> [**StepFun**](https://www.stepfun.com/company)
+- <img src="/assets/stepfun_logo.png" alt="StepFun" width="80" height="80" style="vertical-align: middle; margin-right: 8px;"> [**StepFun**](https://www.stepfun.com/company)  
   AIGC & World Model, Supervised by [Xuanyang Zhang](https://scholar.google.com/citations?user=oPV20eMAAAAJ&hl=zh-CN), Internship  
   Dec 2025 – Present  
   
