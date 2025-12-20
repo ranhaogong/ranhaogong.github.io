@@ -58,8 +58,8 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
   [AI4CITY Lab](http://www.ai4dcity.com/), Supervised by [Wufan Zhao](https://wufan-zhao.github.io/), Research Assistant  
   Aug 2025 – Present
 
-- <img src="/assets/stepfun_logo.png" alt="StepFun" width="100" height="80" style="vertical-align: middle; margin-right: 8px;"> [**StepFun**](https://www.stepfun.com/company)  
-  AIGC & World Model, Supervised by [Xuanyang Zhang](https://scholar.google.com/citations?user=oPV20eMAAAAJ&hl=zh-CN), Internship  
+- <img src="/assets/stepfun_logo.png" alt="StepFun" width="40" height="40" style="vertical-align: middle; margin-right: 8px;"> [**StepFun**](https://www.stepfun.com/company)  
+  AIGC & World Model, Supervised by [Xuanyang Zhang](https://scholar.google.com/citations?user=oPV20eMAAAAJ&hl=zh-CN), Research Internship  
   Dec 2025 – Present  
   
 # :blue_book: Education {#education}
