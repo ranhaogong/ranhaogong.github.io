@@ -12,7 +12,10 @@ redirect_from:
 Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student at [Xi'an Jiaotong University](https://www.xjtu.edu.cn/), 3DSAIL Lab, supervised by [Di Wang](https://gr.xjtu.edu.cn/en/web/diwang). I obtained my bachelor's degree from [Jilin University](https://www.jlu.edu.cn/). My research interests include computer vision, point clouds, and 3D reconstruction.
 
 # :pushpin:	Publications {#publications}
-- [**BuildAnyPoint: 3D Building Structured Abstraction from Diverse Point Clouds**](https://ai4city-hkust.github.io/BuildAnyPoint/)  
+
+<td style="padding:1%;width:20%;max-width:20%;vertical-align:middle">
+    <img style="width:100%;max-width:100%" alt="profile photo" src="images/buildanypoint.png" />
+  </td> [**BuildAnyPoint: 3D Building Structured Abstraction from Diverse Point Clouds**](https://ai4city-hkust.github.io/BuildAnyPoint/)  
       Tongyan Hua<sup>†</sup>, **Haoran Gong<sup>†</sup>** , Yuan Liu, Di Wang, Ying‑Cong Chen, Wufan Zhao  
     ( <sup>†</sup> Equal contribution)  
     [Paper coming](https://ai4city-hkust.github.io/BuildAnyPoint/) | [Code coming](https://github.com/ai4city-hkust/BuildAnyPoint/)  
