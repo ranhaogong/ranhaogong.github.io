@@ -163,7 +163,7 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
 
   <br>
 
-  <a href="https://ieeexplore.ieee.org/document/11129153">Paper</a> 
+  <a href="https://ieeexplore.ieee.org/document/11129153">Paper</a> | <a href="https://github.com/wdczz/Enhancing-3D-Instance-Segmentation-with-Dense-Connection-Decoder-and-Layer-Aware-Fusion">Code
 
   <br>
   <em>IEEE Robotics and Automation Letters (RA-L), 2025</em>
