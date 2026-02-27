@@ -14,7 +14,7 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
 # :pushpin:	Publications {#publications}
 
 <td style="padding:1%;width:20%;max-width:20%;vertical-align:middle">
-    <img style="width:100%;max-width:100%" alt="profile photo" src="images/buildanypoint.png" />
+    <img style="width:100%;max-width:100%" alt="profile photo" src="../images/buildanypoint.png" />
   </td> [**BuildAnyPoint: 3D Building Structured Abstraction from Diverse Point Clouds**](https://ai4city-hkust.github.io/BuildAnyPoint/)  
       Tongyan Hua<sup>†</sup>, **Haoran Gong<sup>†</sup>** , Yuan Liu, Di Wang, Ying‑Cong Chen, Wufan Zhao  
     ( <sup>†</sup> Equal contribution)  
