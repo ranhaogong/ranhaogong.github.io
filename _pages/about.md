@@ -194,7 +194,7 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
 
   <br>
 
-  <a href="https://arxiv.org/abs/2501.03637">Paper</a> | [Dataset](https://boreal3d.github.io/)  
+  <a href="https://arxiv.org/abs/2501.03637">Paper</a> | <a href="https://boreal3d.github.io/">Dataset</a>
 
   <br>
   <em>Preprint, 2025</em>
