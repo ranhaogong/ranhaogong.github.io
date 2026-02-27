@@ -32,16 +32,14 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
 
   Tongyan Hua<sup>†</sup>, 
   <strong>Haoran Gong<sup>†</sup></strong>, 
-  Yuan Liu, Di Wang, Ying-Cong Chen, Wufan Zhao
-  <br>
-  (<sup>†</sup> Equal contribution)
+  Yuan Liu, Di Wang, Ying-Cong Chen, Wufan Zhao (<sup>†</sup> Equal contribution)
 
-  <br><br>
+  <br>
 
   <a href="https://ai4city-hkust.github.io/BuildAnyPoint/">Paper coming</a> |
   <a href="https://github.com/ai4city-hkust/BuildAnyPoint/">Code coming</a>
 
-  <br><br>
+  <br>
   <em>CVPR 2026</em>
 
   </p>
