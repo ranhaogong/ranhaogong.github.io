@@ -18,6 +18,11 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
     IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)  
   
   
+- [**CompetitorFormer: Mitigating Query Conflicts for 3D Instance Segmentation via Competitive Strategy**](https://arxiv.org/abs/2411.14179)  
+    Duanchu Wang, Junjie Yang, **Haoran Gong**, Jing Liu, Di Wang   
+    [Paper](https://arxiv.org/abs/2411.14179)    
+    IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)
+  
 - [**Multilateral Cascading Network for Semantic Segmentation of Large-Scale Outdoor Point Clouds**](https://doi.org/10.1109/LGRS.2025.3547913)  
       **Haoran Gong**, Haodong Wang, Di Wang  
     [Paper](https://doi.org/10.1109/LGRS.2025.3547913) | [Code](https://github.com/ranhaogong/MCNet)  
@@ -42,10 +47,6 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
     Preprint, 2025  
 
 
-- [**CompetitorFormer: Mitigating Query Conflicts for 3D Instance Segmentation via Competitive Strategy**](https://arxiv.org/abs/2411.14179)  
-    Duanchu Wang, Junjie Yang, **Haoran Gong**, Jing Liu, Di Wang   
-    [Paper](https://arxiv.org/abs/2411.14179)    
-    IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)  
 
 # :tada: Honors and Awards {#honors-and-awards}
 - **CVPR Workshop 2025**, Building3D Competition, **2<sup>nd</sup> PLACE**, [News](https://mp.weixin.qq.com/s/14O0uiMHNy9SlDY9Ed-Xrw), [Page](https://usm3d.github.io/)    
