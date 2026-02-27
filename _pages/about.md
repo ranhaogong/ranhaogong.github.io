@@ -97,7 +97,7 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
   </strong>
   <br>
 
-  Duanchu Wang, Junjie Yang, <strong>Haoran Gong</strong>, Jing Liu, Di Wang
+  <strong>Haoran Gong</strong>, Haodong Wang, Di Wang
 
   <br>
 
@@ -111,29 +111,99 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
   </div>
 </div>
 
-  
-- [**Multilateral Cascading Network for Semantic Segmentation of Large-Scale Outdoor Point Clouds**](https://doi.org/10.1109/LGRS.2025.3547913)  
-      **Haoran Gong**, Haodong Wang, Di Wang  
-    [Paper](https://doi.org/10.1109/LGRS.2025.3547913) | [Code](https://github.com/ranhaogong/MCNet)  
-    IEEE Geoscience and Remote Sensing Letters (GRSL), 2025  
+<div style="display:flex; align-items:flex-start; margin-bottom:20px;">
 
+  <div style="flex:1; max-width:25%;">
+    <img src="../images/wireframe.png" style="width:100%; display:block;" />
+  </div>
 
-- [**Robust Building Wireframe Reconstruction: A Hypergraph and Transformer-Enhanced Framework for Large-Scale and Real-World Urban Point Clouds**](https://doi.org/10.1080/01431161.2025.2583601)  
-    **Haoran Gong**, Jing Liu, Rui Tong, Fuqiang Tian, Di Wang  
-    [Paper](https://doi.org/10.1080/01431161.2025.2583601)  
-    International Journal of Remote Sensing (IJRS), 2025  
+  <div style="flex:3; padding-left:20px;">
 
+  <p style="margin-top:0;">
 
-- [**Enhancing 3D Instance Segmentation with Dense Connection Decoder and Layer-Aware Fusion**](https://ieeexplore.ieee.org/document/11129153)  
-    Duanchu Wang, **Haoran Gong**, Di Wang  
-    [Paper](https://ieeexplore.ieee.org/document/11129153) | [Code](https://github.com/wdczz/Enhancing-3D-Instance-Segmentation-with-Dense-Connection-Decoder-and-Layer-Aware-Fusion)  
-    IEEE Robotics and Automation Letters (RA-L), 2025  
+  <strong>
+    <a href="https://doi.org/10.1080/01431161.2025.2583601">
+    Robust Building Wireframe Reconstruction: A Hypergraph and Transformer-Enhanced Framework for Large-Scale and Real-World Urban Point Clouds
+    </a>
+  </strong>
+  <br>
 
+  <strong>Haoran Gong</strong>, Jing Liu, Rui Tong, Fuqiang Tian, Di Wang
 
-- [**Advancing the Understanding of Fine-Grained 3D Forest Structures using Digital Cousins and Simulation-to-Reality: Methods and Datasets**](https://arxiv.org/abs/2501.03637)  
-    Jing Liu, Duanchu Wang, **Haoran Gong**, Chongyu Wang, Jihua Zhu, Di Wang  
-    [Paper](https://arxiv.org/abs/2501.03637) | [Dataset](https://boreal3d.github.io/)  
-    Preprint, 2025  
+  <br>
+
+  <a href="https://doi.org/10.1080/01431161.2025.2583601">Paper</a> 
+
+  <br>
+  <em>International Journal of Remote Sensing (IJRS), 2025</em>
+
+  </p>
+
+  </div>
+</div>
+ 
+<div style="display:flex; align-items:flex-start; margin-bottom:20px;">
+
+  <div style="flex:1; max-width:25%;">
+    <img src="../images/dcd.png" style="width:100%; display:block;" />
+  </div>
+
+  <div style="flex:3; padding-left:20px;">
+
+  <p style="margin-top:0;">
+
+  <strong>
+    <a href="https://ieeexplore.ieee.org/document/11129153">
+    Enhancing 3D Instance Segmentation with Dense Connection Decoder and Layer-Aware Fusion
+    </a>
+  </strong>
+  <br>
+
+  Duanchu Wang, <strong>Haoran Gong</strong>, Di Wang
+
+  <br>
+
+  <a href="https://ieeexplore.ieee.org/document/11129153">Paper</a> 
+
+  <br>
+  <em>IEEE Robotics and Automation Letters (RA-L), 2025</em>
+
+  </p>
+
+  </div>
+</div>
+
+<div style="display:flex; align-items:flex-start; margin-bottom:20px;">
+
+  <div style="flex:1; max-width:25%;">
+    <img src="../images/boreal.png" style="width:100%; display:block;" />
+  </div>
+
+  <div style="flex:3; padding-left:20px;">
+
+  <p style="margin-top:0;">
+
+  <strong>
+    <a href="https://arxiv.org/abs/2501.03637">
+    Advancing the Understanding of Fine-Grained 3D Forest Structures using Digital Cousins and Simulation-to-Reality: Methods and Dataset
+    </a>
+  </strong>
+  <br>
+
+  Jing Liu, Duanchu Wang, <strong>Haoran Gong</strong>, Chongyu Wang, Jihua Zhu, Di Wang  
+
+  <br>
+
+  <a href="https://arxiv.org/abs/2501.03637">Paper</a> | [Dataset](https://boreal3d.github.io/)  
+
+  <br>
+  <em>Preprint, 2025</em>
+
+  </p>
+
+  </div>
+</div>
+
 
 
 
