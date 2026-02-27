@@ -46,6 +46,39 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
 
   </div>
 </div>
+
+
+
+<div style="display:flex; align-items:flex-start; margin-bottom:20px;">
+
+  <div style="flex:1; max-width:25%;">
+    <img src="../images/competitorformer.png" style="width:100%; display:block;" />
+  </div>
+
+  <div style="flex:3; padding-left:20px;">
+
+  <p style="margin-top:0;">
+
+  <strong>
+    <a href="https://arxiv.org/abs/2411.14179">
+    CompetitorFormer: Mitigating Query Conflicts for 3D Instance Segmentation via Competitive Strategy
+    </a>
+  </strong>
+  <br>
+
+  Duanchu Wang, Junjie Yang, <strong>Haoran Gong</strong>, Jing Liu, Di Wang
+
+  <br>
+
+  <a href="https://arxiv.org/abs/2411.14179">Paper</a> |
+
+  <br>
+  <em>CVPR 2026</em>
+
+  </p>
+
+  </div>
+</div>
   
 - [**CompetitorFormer: Mitigating Query Conflicts for 3D Instance Segmentation via Competitive Strategy**](https://arxiv.org/abs/2411.14179)  
     Duanchu Wang, Junjie Yang, **Haoran Gong**, Jing Liu, Di Wang   
