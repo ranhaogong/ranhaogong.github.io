@@ -13,27 +13,26 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
 
 # :pushpin:	Publications {#publications}
 
-<table>
-  <tr>
-    <td style="padding:1%;width:25%;max-width:25%;vertical-align:middle">
-      <img style="width:100%;max-width:100%" 
-           alt="BuildAnyPoint" 
-           src="../images/buildanypoint.png" />
-    </td>
-    <td style="padding:1%;width:75%;vertical-align:middle">
+<div style="display:flex;align-items:center;margin-bottom:20px">
 
-      **[BuildAnyPoint: 3D Building Structured Abstraction from Diverse Point Clouds](https://ai4city-hkust.github.io/BuildAnyPoint/)**  
-      Tongyan Hua<sup>†</sup>, **Haoran Gong<sup>†</sup>**, Yuan Liu, Di Wang, Ying-Cong Chen, Wufan Zhao  
-      (<sup>†</sup> Equal contribution)  
-      
-      [Paper coming](https://ai4city-hkust.github.io/BuildAnyPoint/) | 
-      [Code coming](https://github.com/ai4city-hkust/BuildAnyPoint/)  
-      
-      IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)
+  <div style="flex:1;max-width:25%">
+    <img src="../images/buildanypoint.png" style="width:100%" />
+  </div>
 
-    </td>
-  </tr>
-</table>
+  <div style="flex:3;padding-left:20px">
+
+**[BuildAnyPoint: 3D Building Structured Abstraction from Diverse Point Clouds](https://ai4city-hkust.github.io/BuildAnyPoint/)**  
+Tongyan Hua<sup>†</sup>, **Haoran Gong<sup>†</sup>**, Yuan Liu, Di Wang, Ying-Cong Chen, Wufan Zhao  
+(<sup>†</sup> Equal contribution)  
+
+[Paper coming](https://ai4city-hkust.github.io/BuildAnyPoint/) | 
+[Code coming](https://github.com/ai4city-hkust/BuildAnyPoint/)  
+
+*CVPR 2026*
+
+  </div>
+
+</div>
   
 - [**CompetitorFormer: Mitigating Query Conflicts for 3D Instance Segmentation via Competitive Strategy**](https://arxiv.org/abs/2411.14179)  
     Duanchu Wang, Junjie Yang, **Haoran Gong**, Jing Liu, Di Wang   
