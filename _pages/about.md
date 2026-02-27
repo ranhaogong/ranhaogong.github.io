@@ -70,7 +70,7 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
 
   <br>
 
-  <a href="https://arxiv.org/abs/2411.14179">Paper</a> |
+  <a href="https://arxiv.org/abs/2411.14179">Paper</a>
 
   <br>
   <em>CVPR 2026</em>
@@ -79,11 +79,38 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
 
   </div>
 </div>
-  
-- [**CompetitorFormer: Mitigating Query Conflicts for 3D Instance Segmentation via Competitive Strategy**](https://arxiv.org/abs/2411.14179)  
-    Duanchu Wang, Junjie Yang, **Haoran Gong**, Jing Liu, Di Wang   
-    [Paper](https://arxiv.org/abs/2411.14179)    
-    IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)
+
+<div style="display:flex; align-items:flex-start; margin-bottom:20px;">
+
+  <div style="flex:1; max-width:25%;">
+    <img src="../images/mcnet.png" style="width:100%; display:block;" />
+  </div>
+
+  <div style="flex:3; padding-left:20px;">
+
+  <p style="margin-top:0;">
+
+  <strong>
+    <a href="https://doi.org/10.1109/LGRS.2025.3547913">
+    Multilateral Cascading Network for Semantic Segmentation of Large-Scale Outdoor Point Clouds
+    </a>
+  </strong>
+  <br>
+
+  Duanchu Wang, Junjie Yang, <strong>Haoran Gong</strong>, Jing Liu, Di Wang
+
+  <br>
+
+  <a href="https://doi.org/10.1109/LGRS.2025.3547913">Paper</a> | <a href="https://github.com/ranhaogong/MCNet">Code</a>
+
+  <br>
+  <em>IEEE Geoscience and Remote Sensing Letters (GRSL), 2025</em>
+
+  </p>
+
+  </div>
+</div>
+
   
 - [**Multilateral Cascading Network for Semantic Segmentation of Large-Scale Outdoor Point Clouds**](https://doi.org/10.1109/LGRS.2025.3547913)  
       **Haoran Gong**, Haodong Wang, Di Wang  
