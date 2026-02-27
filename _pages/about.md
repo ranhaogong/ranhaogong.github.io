@@ -13,29 +13,37 @@ Hi! I am Haoran Gong (公昊苒). I am currently a second-year graduate student 
 
 # :pushpin:	Publications {#publications}
 
-<div style="display:flex;align-items:center;margin-bottom:20px">
+<div style="display:flex; align-items:flex-start; margin-bottom:20px;">
 
-  <div style="flex:1;max-width:25%">
-    <img src="../images/buildanypoint.png" style="width:100%" />
+  <div style="flex:1; max-width:25%;">
+    <img src="../images/buildanypoint.png" style="width:100%; display:block;" />
   </div>
 
-  <div style="flex:3;padding-left:20px">
+  <div style="flex:3; padding-left:20px;">
 
-  <p>
-    <strong>
-      <a href="https://ai4city-hkust.github.io/BuildAnyPoint/">
-      BuildAnyPoint: 3D Building Structured Abstraction from Diverse Point Clouds
-      </a>
-    </strong>
-    <br>
-    Tongyan Hua<sup>†</sup>, <strong>Haoran Gong<sup>†</sup></strong>, Yuan Liu, Di Wang, Ying-Cong Chen, Wufan Zhao
-    <br>
-    (<sup>†</sup> Equal contribution)
-    <br><br>
-    <a href="https://ai4city-hkust.github.io/BuildAnyPoint/">Paper coming</a> |
-    <a href="https://github.com/ai4city-hkust/BuildAnyPoint/">Code coming</a>
-    <br><br>
-    <em>CVPR 2026</em>
+  <p style="margin-top:0;">
+
+  <strong>
+    <a href="https://ai4city-hkust.github.io/BuildAnyPoint/">
+    BuildAnyPoint: 3D Building Structured Abstraction from Diverse Point Clouds
+    </a>
+  </strong>
+  <br>
+
+  Tongyan Hua<sup>†</sup>, 
+  <strong>Haoran Gong<sup>†</sup></strong>, 
+  Yuan Liu, Di Wang, Ying-Cong Chen, Wufan Zhao
+  <br>
+  (<sup>†</sup> Equal contribution)
+
+  <br><br>
+
+  <a href="https://ai4city-hkust.github.io/BuildAnyPoint/">Paper coming</a> |
+  <a href="https://github.com/ai4city-hkust/BuildAnyPoint/">Code coming</a>
+
+  <br><br>
+  <em>CVPR 2026</em>
+
   </p>
 
   </div>
