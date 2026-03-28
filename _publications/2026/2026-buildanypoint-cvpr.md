@@ -14,8 +14,7 @@ authors:
   - Yuan Liu
   - Di Wang
   - Ying-Cong Chen
-  - Wufan Zhao 
-  - (<sup>†</sup> Equal contribution)
+  - Wufan Zhao (<sup>†</sup> Equal contribution)
 links:
   arXiv: "https://arxiv.org/abs/2602.23645"
   PDF: "https://arxiv.org/pdf/2602.23645"
