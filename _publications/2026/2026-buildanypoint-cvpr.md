@@ -16,6 +16,7 @@ authors:
   - Ying-Cong Chen
   - Wufan Zhao (<sup>†</sup> Equal contribution)
 links:
+  code: "https://github.com/ai4city-hkust/BuildAnyPoint/"
   arXiv: "https://arxiv.org/abs/2602.23645"
   PDF: "https://arxiv.org/pdf/2602.23645"
 ---
