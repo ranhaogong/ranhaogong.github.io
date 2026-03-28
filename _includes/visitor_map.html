@@ -1,25 +1,11 @@
 {% comment %}
-  访客 IP 分布地图 - MapMyVisitors 2D 地图 / 3D 地球仪 / ClustrMaps
+  访客 IP 分布地图 - ClustrMaps
 {% endcomment %}
 {% if site.data.display.visitor_map.enabled %}
 <div class="visitor-map-wrapper text-center py-4 border-top">
   <p class="text-muted small mb-2"><i class="fas fa-globe-americas"></i> Visitor Map</p>
-  {% if site.data.display.visitor_map.mapmyvisitors_map_id != "" and site.data.display.visitor_map.mapmyvisitors_map_id != nil %}
-  <div style="max-width: 320px; margin: 0 auto;">
-    <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d={{ site.data.display.visitor_map.mapmyvisitors_map_id }}&cl=ffffff&w=a"></script>
-  </div>
-  {% elsif site.data.display.visitor_map.mapmyvisitors_globe_id != "" and site.data.display.visitor_map.mapmyvisitors_globe_id != nil %}
-  <div style="min-height: 200px; max-width: 400px; margin: 0 auto;">
-    <script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d={{ site.data.display.visitor_map.mapmyvisitors_globe_id }}"></script>
-  </div>
-  {% elsif site.data.display.visitor_map.clustrmaps_site_id != "" and site.data.display.visitor_map.clustrmaps_site_id != nil %}
   <div style="max-width: 400px; margin: 0 auto;">
     <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d={{ site.data.display.visitor_map.clustrmaps_site_id }}&cl=ffffff&w=a"></script>
   </div>
-  {% else %}
-  <a href="https://mapmyvisitors.com" target="_blank" rel="noopener noreferrer" class="text-muted small">
-    <i class="fas fa-map-marked-alt"></i> Add your site at MapMyVisitors to show visitor map
-  </a>
-  {% endif %}
 </div>
 {% endif %}
