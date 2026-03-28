@@ -40,17 +40,17 @@ education:
 - name: <a href="https://www.jlu.edu.cn/">Jilin University</a>
   position: "B.S. in Software Engineering"
   date: Sept 2020 - June 2024
-- name: Xi'an Jiaotong University (XJTU)
-  position: "M.S. in Computer Science and Technology (Supervised by Prof. Di Wang)"
+- name: <a href="https://www.xjtu.edu.cn/">Xi'an Jiaotong University</a>
+  position: "M.S. in Computer Science and Technology (Supervised by Prof. <a href="https://gr.xjtu.edu.cn/en/web/diwang">Di Wang</a>)"
   date: Sept 2024 - Aug 2026
-- name: Xi’an Jiaotong University (XJTU) & Beijing Zhongguancun Academy (ZGCA)
-  position: "Joint Ph.D. stduent in Computer Science and Technology (Supervised by Prof. Chenxu Wang)"
+- name: <a href="https://www.xjtu.edu.cn/">Xi'an Jiaotong University</a> & <a href="https://bza.edu.cn/">Beijing Zhongguancun Academy</a>
+  position: "Joint Ph.D. stduent in Computer Science and Technology (Supervised by Prof. <a href="http://gr.xjtu.edu.cn/web/cxwang/">Chenxu Wang</a>)"
   date: Sept 2026 - June 2029 (Exp.)
 
 experience:
-- name: HKUST(GZ)
-  position: "Research Assistant (Mentored by Prof. Wufan Zhao)"
+- name: <a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a>
+  position: "Research Assistant (Mentored by Prof. <a href="https://wufan-zhao.github.io/">Wufan Zhao</a>)"
   date: Aug 2025 – Mar 2026
-- name: StepFun
+- name: <a href="https://www.stepfun.com/company">StepFun  </a>
   position: "Research Intern, AIGC & World Model"
   date: Dec 2025 – Mar 2026  
