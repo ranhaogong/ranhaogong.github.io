@@ -18,7 +18,19 @@
             </h5>
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
-            <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
+            
+            <!-- 摘要部分：带展开/收起功能 -->
+            <div class="abstract-container mt-0 mb-0 small text-muted" data-abstract-full="{{ item.abstract | escape }}">
+                <div class="abstract-short">
+                    {{ item.abstract | strip_html | truncate: 200 }}{% if item.abstract.size > 200 %}...{% endif %}
+                </div>
+                <div class="abstract-full" style="display: none;">
+                    {{ item.abstract }}
+                </div>
+                {% if item.abstract.size > 200 %}
+                <button class="btn btn-link btn-sm p-0 mt-1 abstract-toggle" style="font-size: 0.8rem;">Show all</button>
+                {% endif %}
+            </div>
             
             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
                 {% for link in item.links %}
@@ -48,7 +60,19 @@
                 </h5>
                 <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
                 <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
-                <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
+                
+                <!-- 移动端摘要部分：带展开/收起功能 -->
+                <div class="abstract-container mt-0 mb-0 small text-muted" data-abstract-full="{{ item.abstract | escape }}">
+                    <div class="abstract-short">
+                        {{ item.abstract | strip_html | truncate: 150 }}{% if item.abstract.size > 150 %}...{% endif %}
+                    </div>
+                    <div class="abstract-full" style="display: none;">
+                        {{ item.abstract }}
+                    </div>
+                    {% if item.abstract.size > 150 %}
+                    <button class="btn btn-link btn-sm p-0 mt-1 abstract-toggle" style="font-size: 0.75rem;">Show all</button>
+                    {% endif %}
+                </div>
                 
                 <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
                     {% for link in item.links %}
@@ -64,3 +88,31 @@
     </div>
 
 </div>
+
+<!-- 添加 JavaScript 代码 -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // 为所有摘要切换按钮绑定事件
+    var toggleButtons = document.querySelectorAll('.abstract-toggle');
+    
+    toggleButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+            var container = this.closest('.abstract-container');
+            var shortDiv = container.querySelector('.abstract-short');
+            var fullDiv = container.querySelector('.abstract-full');
+            
+            if (fullDiv.style.display === 'none') {
+                // 展开
+                shortDiv.style.display = 'none';
+                fullDiv.style.display = 'block';
+                this.textContent = 'Show less';
+            } else {
+                // 收起
+                shortDiv.style.display = 'block';
+                fullDiv.style.display = 'none';
+                this.textContent = 'Show all';
+            }
+        });
+    });
+});
+</script>
