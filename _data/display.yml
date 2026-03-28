@@ -1,0 +1,22 @@
+homepage:
+  show_experience: true
+  show_news: true
+  show_selected_publications: true
+  num_news: 10
+
+# Visitor map - 访客 IP 分布地图（根据访客 IP 显示全球访问位置）
+# 优先级：mapmyvisitors_map > 3D globe > clustrmaps
+visitor_map:
+  enabled: true
+  # MapMyVisitors 2D 地图（推荐），从 https://mapmyvisitors.com 获取
+  mapmyvisitors_map_id: "D4wvK6ljS9t66_uUYlpQuBnZ_XY2XqBBUVTQeYqmPys"
+  mapmyvisitors_stats_url: "https://mapmyvisitors.com/web/1c2wr"
+  # MapMyVisitors 3D 地球仪
+  mapmyvisitors_globe_id: ""
+  # ClustrMaps 2D 缩略图，前往 https://clustrmaps.com/add 添加网站获取
+  clustrmaps_site_id: ""
+
+# Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
+# if you keep the link to the template so that more people can benefit from it. Thanks!
+footer_text: >-
+  <a href="https://github.com/luost26/academic-homepage" target="_blank"><i class="fas fa-pencil-ruler"></i> academic-homepage</a>
