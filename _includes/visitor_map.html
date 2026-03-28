@@ -13,9 +13,9 @@
     <script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d={{ site.data.display.visitor_map.mapmyvisitors_globe_id }}"></script>
   </div>
   {% elsif site.data.display.visitor_map.clustrmaps_site_id != "" and site.data.display.visitor_map.clustrmaps_site_id != nil %}
-  <a href="https://clustrmaps.com/site/{{ site.data.display.visitor_map.clustrmaps_site_id }}" target="_blank" rel="noopener noreferrer" title="View visitor map">
-    <img src="https://cdn.clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=n&d={{ site.data.display.visitor_map.clustrmaps_site_id }}" alt="Visitor Map" style="max-width: 100%; height: auto; border-radius: 6px;">
-  </a>
+  <div style="max-width: 400px; margin: 0 auto;">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d={{ site.data.display.visitor_map.clustrmaps_site_id }}&cl=ffffff&w=a"></script>
+  </div>
   {% else %}
   <a href="https://mapmyvisitors.com" target="_blank" rel="noopener noreferrer" class="text-muted small">
     <i class="fas fa-map-marked-alt"></i> Add your site at MapMyVisitors to show visitor map
