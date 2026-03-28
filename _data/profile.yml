@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Haoran Gong"
 
 positions:
-- name: PhD Candidate
+- name: PhD Student
 - name: School of Software Engineering, Xi'an Jiaotong University
 
 
@@ -21,7 +21,7 @@ orcid: 0009-0005-0489-6881
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi! I am Haoran Gong (公昊苒). I am currently a PhD student at [Xi'an Jiaotong University](https://www.xjtu.edu.cn/), 3DSAIL Lab, supervised by [Di Wang](https://gr.xjtu.edu.cn/en/web/diwang). I obtained my bachelor's degree from [Jilin University](https://www.jlu.edu.cn/). My research interests include computer vision, point clouds, and 3D reconstruction.
+    Hi! I am Haoran Gong (公昊苒). I am currently a PhD student at <a href="https://www.xjtu.edu.cn/">Xi'an Jiaotong University</a>, 3DSAIL Lab, supervised by <a href="https://gr.xjtu.edu.cn/en/web/diwang">Di Wang</a>. I obtained my bachelor's degree from <a href="https://www.jlu.edu.cn/">Jilin University</a>. My research interests include computer vision, point clouds, and 3D reconstruction.
   </p>
   <p>
     I am always open to collaboration and would be glad to discuss—please feel free to reach out.
