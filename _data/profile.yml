@@ -37,7 +37,7 @@ portrait_url: /assets/images/ghr.png
 #   date: ""
 
 education:
-- name: Jilin University (JLU)
+- name: <a href="https://www.jlu.edu.cn/">Jilin University</a>
   position: "B.S. in Software Engineering"
   date: Sept 2020 - June 2024
 - name: Xi'an Jiaotong University (XJTU)
