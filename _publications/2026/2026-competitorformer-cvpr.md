@@ -15,6 +15,7 @@ authors:
   - Jing Liu
   - Di Wang
 links:
+  code: "https://github.com/DuanchuWang/CompetitorFormer"
   arXiv: "https://arxiv.org/abs/2411.14179"
   PDF: "https://arxiv.org/pdf/2411.14179"
 ---
