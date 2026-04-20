@@ -2,7 +2,7 @@
 title: "Advancing the Understanding of Fine-Grained 3D Forest Structures using Digital Cousins and Simulation-to-Reality: Methods and Dataset"
 date: 2025-01-07 00:01:00 +0800
 selected: false
-pub: "Submit to Remote Sensing of Environment"
+pub: "Remote Sensing of Environment"
 pub_date: "2025"
 cover: /assets/images/teaser/boreal.png
 scholar_url: "https://arxiv.org/abs/2501.03637"
