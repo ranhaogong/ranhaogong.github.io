@@ -19,4 +19,5 @@ links:
   code: "https://github.com/ai4city-hkust/BuildAnyPoint/"
   arXiv: "https://arxiv.org/abs/2602.23645"
   PDF: "https://arxiv.org/pdf/2602.23645"
+  youtube: "https://www.youtube.com/watch?v=8MBK615we_g"
 ---
