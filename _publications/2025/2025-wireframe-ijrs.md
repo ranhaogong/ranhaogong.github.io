@@ -15,7 +15,8 @@ authors:
   - Fuqiang Tian
   - Di Wang
 links:
+  code: "https://github.com/ranhaogong/Robust-Building-Wireframe-Reconstruction"
   arXiv: "https://doi.org/10.1080/01431161.2025.2583601"
   PDF: "https://doi.org/10.1080/01431161.2025.2583601"
-  code: "https://github.com/ranhaogong/Robust-Building-Wireframe-Reconstruction"
+  
 ---
