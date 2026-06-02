@@ -9,7 +9,7 @@ homepage:
 visitor_map:
   enabled: true
   # MapMyVisitors 2D 地图（推荐），从 https://mapmyvisitors.com 获取
-  mapmyvisitors_map_id: "1c50n"
+  mapmyvisitors_map_id: "s-HGe1GuVamhfyTtzGSddTB8JK-NrjIJ4MXbu5AlHqo"
   mapmyvisitors_stats_url: ""
   # MapMyVisitors 3D 地球仪
   mapmyvisitors_globe_id: ""
