@@ -21,7 +21,7 @@ export const siteConfig = {
     dataset: { type: 'image', src: '', alt: 'Examples from the CityLift-5K dataset' },
   },
   scenes: [
-    { id: 'scene-01', label: 'Scene 01', input: '', model: '', poster: '', video: '', modelSizeMB: null, upAxis: 'y', instanceNodes: [] },
+    { id: 'scene-01', label: 'Scene 01', input: 'assets/images/scene_rgb_4877.webp', model: 'assets/models/citylift_5k_4877-compressed.glb', poster: '', video: '', modelSizeMB: 9.53, upAxis: 'y', instanceNodes: [] },
     { id: 'scene-02', label: 'Scene 02', input: '', model: '', poster: '', video: '', modelSizeMB: null, upAxis: 'y', instanceNodes: [] },
     { id: 'scene-03', label: 'Scene 03', input: '', model: '', poster: '', video: '', modelSizeMB: null, upAxis: 'y', instanceNodes: [] },
     { id: 'scene-04', label: 'Scene 04', input: '', model: '', poster: '', video: '', modelSizeMB: null, upAxis: 'y', instanceNodes: [] },
