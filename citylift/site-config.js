@@ -14,10 +14,10 @@ export const siteConfig = {
   links: { paper: '', code: '', dataset: '' },
   // type: 'image' or 'video'; poster is optional and only used for videos.
   media: {
-    teaser: { type: 'image', src: '', alt: 'CityLift input images and generated urban scenes' },
+    teaser: { type: 'image', src: 'assets/images/teaser.webp', alt: 'CityLift input images and generated urban scenes' },
     editing: { type: 'video', src: '', poster: '', alt: 'Editing individual generated buildings' },
     composition: { type: 'video', src: '', poster: '', alt: 'Composing generated urban scene blocks' },
-    method: { type: 'image', src: '', alt: 'The three stages of the CityLift framework' },
+    method: { type: 'image', src: 'assets/images/method.webp', alt: 'The three stages of the CityLift framework' },
     dataset: { type: 'image', src: '', alt: 'Examples from the CityLift-5K dataset' },
   },
   scenes: [
