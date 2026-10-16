@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="CityLift generates compositional 3D urban scenes from a single image and building instance masks, with an explicit mesh for each building.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CityLift: Compositional 3D Urban Generation from a Single Image">
+  <meta property="og:description" content="One image. An urban scene of individual, editable 3D buildings.">
+  <meta property="og:url" content="https://ranhaogong.github.io/citylift/">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://ranhaogong.github.io/citylift/">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <title>CityLift: Compositional 3D Urban Generation from a Single Image</title>
+  <script type="importmap">
+    {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}
+  </script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="wordmark" href="#top" aria-label="CityLift home"><img src="./favicon.svg" width="25" height="25" alt="">CityLift</a>
+      <div class="nav-links"><a href="#results">Results</a><a href="#method">Method</a><a href="#dataset">Dataset</a><a href="#resources">Resources</a></div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="top" aria-labelledby="project-title">
+      <p class="eyebrow">Single-image 3D urban generation</p>
+      <h1 id="project-title"><span class="project-name">CityLift</span><span class="project-title">Compositional 3D Urban Generation<br class="desktop-break"> from a Single Image</span></h1>
+      <div id="authors" class="authors"><span>Haoran Gong<sup>1,2</sup></span><span>Jie Feng<sup>2,†</sup></span></div>
+      <div id="affiliations" class="affiliations"><span><sup>1</sup>Xi’an Jiaotong University</span><span><sup>2</sup>Zhongguancun Academy</span></div>
+      <p id="author-note" class="author-note">† Corresponding author</p>
+      <div id="hero-links" class="resource-buttons" aria-label="Project resources">
+        <button class="resource-button" disabled>Paper <span>Coming soon</span></button>
+        <button class="resource-button" disabled>Code <span>Coming soon</span></button>
+        <button class="resource-button" disabled>Dataset <span>Coming soon</span></button>
+      </div>
+      <p class="hero-summary">One image. An urban scene of individual, editable 3D buildings.</p>
+    </section>
+
+    <section class="teaser-section container" aria-label="Project showcase">
+      <figure>
+        <div id="teaser-media" class="media-slot teaser-slot"><div class="placeholder"><span class="placeholder-symbol" aria-hidden="true">◇</span><span class="placeholder-title">From a single image to a 3D urban scene</span><span class="placeholder-note">Visual results coming soon</span></div><span class="frame-label">CITYLIFT / SHOWCASE</span></div>
+        <figcaption>CityLift generates an explicit mesh for each building, bringing scene layout and local geometric detail into one composition.</figcaption>
+      </figure>
+      <div class="feature-strip" aria-label="Project highlights">
+        <div><span class="feature-index">01</span><span><strong>Single-image input</strong><small>Guided by building instance masks</small></span></div>
+        <div><span class="feature-index">02</span><span><strong>Compositional output</strong><small>Individual buildings in a shared scene</small></span></div>
+        <div><span class="feature-index">03</span><span><strong>Explicit geometry</strong><small>Building meshes for further editing</small></span></div>
+      </div>
+    </section>
+
+    <section class="section abstract-section container narrow" id="abstract" aria-labelledby="abstract-heading">
+      <h2 id="abstract-heading">Abstract</h2>
+      <p>Generating urban scenes as individual 3D assets enables flexible scene editing and provides geometry for simulation and urban world modeling. CityLift addresses this task from a single image and building instance masks, generating a separate mesh for each building within a shared scene.</p>
+      <p>Our framework first generates an urban scaffold that jointly represents scene layout and coarse building structure. Generative spatial inheritance then transfers coarse geometric support and scene features into dedicated local building volumes. Conditioned building regeneration produces detailed local structure, which is converted to meshes and assembled in the scene through the inherited spatial mapping. We also introduce CityLift-5K, a collection of 5,000 scenes pairing images and instance masks with building geometry and scene placement.</p>
+    </section>
+
+    <section class="section section-tinted" id="results" aria-labelledby="results-heading">
+      <div class="container">
+        <div class="section-heading"><span class="section-kicker">Explore the results</span><h2 id="results-heading">Interactive Results</h2><p>A scene at a glance. Each building in detail.</p></div>
+        <div class="result-panel">
+          <div class="result-topline"><span id="scene-name">Scene 01</span><span class="status-label" id="scene-status" role="status">Preview coming soon</span></div>
+          <div class="result-grid">
+            <div class="input-panel"><div class="panel-label"><span class="label-dot"></span>Input image</div><div id="input-media" class="input-media media-slot"><div class="placeholder"><span class="placeholder-symbol" aria-hidden="true">▧</span><span class="placeholder-title">Input image</span><span class="placeholder-note">Coming soon</span></div></div><p class="input-description">One image + building instance masks</p></div>
+            <div class="output-panel"><div class="panel-label"><span class="label-dot blue"></span>Generated scene</div><div id="result-viewport" class="result-viewport" aria-label="Generated scene viewer"><div class="placeholder"><span class="placeholder-symbol" aria-hidden="true">◇</span><span class="placeholder-title">Explore the generated scene</span><span class="placeholder-note">Interactive results coming soon</span></div></div></div>
+          </div>
+          <div class="viewer-toolbar" aria-label="Viewer controls">
+            <div class="segmented" role="group" aria-label="Appearance"><button data-appearance="textured" aria-pressed="true" disabled>Texture</button><button data-appearance="geometry" aria-pressed="false" disabled>Geometry</button><button data-appearance="instances" aria-pressed="false" disabled>Instances</button></div>
+            <div class="viewer-actions"><label class="sr-only" for="instance-select">Visible building</label><select id="instance-select" disabled><option value="all">All buildings</option></select><button id="rotate-button" class="text-button" aria-pressed="false" disabled>Auto rotate</button><button id="reset-button" class="text-button" disabled>Reset view</button></div>
+          </div>
+        </div>
+        <div id="scene-list" class="scene-list" role="group" aria-label="Choose a scene"></div>
+        <p class="viewer-hint" id="viewer-hint">Scene previews will be added here.</p>
+        <noscript><p class="noscript-note">Enable JavaScript to use the interactive results viewer.</p></noscript>
+      </div>
+    </section>
+
+    <section class="section container" id="composition" aria-labelledby="composition-heading">
+      <div class="section-heading"><span class="section-kicker">Compositional by design</span><h2 id="composition-heading">From buildings to urban scenes</h2><p>Independent assets create room for editing and new compositions.</p></div>
+      <div class="composition-grid">
+        <figure><div id="editing-media" class="media-slot composition-slot"><div class="placeholder"><span class="placeholder-symbol" aria-hidden="true">◇</span><span class="placeholder-title">Instance-level editing</span><span class="placeholder-note">Demonstration coming soon</span></div></div><figcaption>Inspect individual buildings and edit their placement within a scene.</figcaption></figure>
+        <figure><div id="composition-media" class="media-slot composition-slot"><div class="placeholder"><span class="placeholder-symbol" aria-hidden="true">◇</span><span class="placeholder-title">Scene composition</span><span class="placeholder-note">Demonstration coming soon</span></div></div><figcaption>Assemble generated scene blocks into larger urban compositions.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section method-section" id="method" aria-labelledby="method-heading">
+      <div class="container">
+        <div class="section-heading"><span class="section-kicker">The framework</span><h2 id="method-heading">Scene layout. Local detail.</h2><p>Three stages connect a shared urban scaffold to individual building meshes.</p></div>
+        <div class="method-steps">
+          <article><span class="step-number">01</span><h3>Urban Scaffold<br> Generation</h3><p>Jointly generate scene layout and coarse building structure with shared scene–instance modeling and scene guidance.</p></article>
+          <article><span class="step-number">02</span><h3>Generative Spatial<br> Inheritance</h3><p>Map coarse support and scene features into each building’s local volume through a deterministic spatial interface.</p></article>
+          <article><span class="step-number">03</span><h3>Conditioned Building<br> Regeneration</h3><p>Generate local building structure, convert it to a mesh, and assemble it in the scene using the inherited mapping.</p></article>
+        </div>
+        <figure><div id="method-media" class="media-slot method-slot"><div class="placeholder"><span class="placeholder-title">Method overview</span><span class="placeholder-note">Framework figure coming soon</span></div></div><figcaption>A scene-to-building generation framework with a shared spatial interface for local generation and scene assembly.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section container" id="dataset" aria-labelledby="dataset-heading">
+      <div class="dataset-intro"><div><span class="section-kicker">Paired urban scenes</span><h2 id="dataset-heading">CityLift-5K</h2><p>A dataset for studying compositional 3D urban generation from images, with individual building geometry and scene placement.</p><span class="release-badge"><span></span>Dataset coming soon</span></div><div class="dataset-count"><strong>5,000</strong><span>scenes</span></div></div>
+      <div class="dataset-fields" aria-label="Dataset contents"><span>Scene images</span><span>Instance masks</span><span>Building meshes</span><span>Scene transforms</span></div>
+      <figure><div id="dataset-media" class="media-slot dataset-slot"><div class="placeholder"><span class="placeholder-title">A collection of urban compositions</span><span class="placeholder-note">Dataset gallery coming soon</span></div></div></figure>
+    </section>
+
+    <section class="section resources-section" id="resources" aria-labelledby="resources-heading"><div class="container narrow"><div class="section-heading"><span class="section-kicker">Follow the project</span><h2 id="resources-heading">Research resources</h2><p>Paper, implementation, and data will be linked here as they become available.</p></div><div id="resource-list" class="resource-list"></div><div id="citation-section" class="citation-section" hidden><div class="citation-heading"><h3>Citation</h3><button id="copy-citation" class="text-button">Copy BibTeX</button></div><pre><code id="citation-content"></code></pre><p id="copy-status" class="sr-only" role="status"></p></div></div></section>
+  </main>
+  <footer class="site-footer container"><a class="wordmark" href="#top">CityLift<span class="back-top" aria-hidden="true">↑</span></a><p>Compositional 3D Urban Generation from a Single Image</p><p class="credits">Page design inspired by <a href="https://zx-yin.github.io/3dfixer/" target="_blank" rel="noopener noreferrer">3D-Fixer</a> and <a href="https://huanngzh.github.io/MIDI-Page/" target="_blank" rel="noopener noreferrer">MIDI</a>.</p></footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+// All paths are relative to /citylift/. Empty strings intentionally show placeholders.
+// After uploading an asset, enter its path here. See README.md for examples.
+export const siteConfig = {
+  authors: [
+    { name: 'Haoran Gong', affiliations: [1, 2], url: 'https://ranhaogong.github.io/' },
+    { name: 'Jie Feng', affiliations: [2], url: 'https://vonfeng.github.io/', corresponding: true },
+  ],
+  affiliations: [
+    { id: 1, name: 'Xi’an Jiaotong University' },
+    { id: 2, name: 'Zhongguancun Academy' },
+  ],
+  // A nonempty URL turns the matching Coming soon label into a working link.
+  links: { paper: '', code: '', dataset: '' },
+  // type: 'image' or 'video'; poster is optional and only used for videos.
+  media: {
+    teaser: { type: 'image', src: '', alt: 'CityLift input images and generated urban scenes' },
+    editing: { type: 'video', src: '', poster: '', alt: 'Editing individual generated buildings' },
+    composition: { type: 'video', src: '', poster: '', alt: 'Composing generated urban scene blocks' },
+    method: { type: 'image', src: '', alt: 'The three stages of the CityLift framework' },
+    dataset: { type: 'image', src: '', alt: 'Examples from the CityLift-5K dataset' },
+  },
+  scenes: [
+    { id: 'scene-01', label: 'Scene 01', input: '', model: '', poster: '', video: '', modelSizeMB: null, upAxis: 'y', instanceNodes: [] },
+    { id: 'scene-02', label: 'Scene 02', input: '', model: '', poster: '', video: '', modelSizeMB: null, upAxis: 'y', instanceNodes: [] },
+    { id: 'scene-03', label: 'Scene 03', input: '', model: '', poster: '', video: '', modelSizeMB: null, upAxis: 'y', instanceNodes: [] },
+    { id: 'scene-04', label: 'Scene 04', input: '', model: '', poster: '', video: '', modelSizeMB: null, upAxis: 'y', instanceNodes: [] },
+  ],
+  // Add the final BibTeX entry when the paper is available. No citation is fabricated.
+  citation: '',
+};
