@@ -4,6 +4,7 @@ export const siteConfig = {
   authors: [
     { name: 'Haoran Gong', affiliations: [1, 2], url: 'https://ranhaogong.github.io/' },
     { name: 'Jie Feng', affiliations: [2], url: 'https://vonfeng.github.io/', corresponding: true },
+    { name: 'Chenxu Wang', affiliations: [1], url: 'https://gr.xjtu.edu.cn/cxwang/', corresponding: true },
   ],
   affiliations: [
     { id: 1, name: 'Xi’an Jiaotong University' },
