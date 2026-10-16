@@ -23,7 +23,7 @@ export const siteConfig = {
   scenes: [
     { id: 'scene-01', label: 'Scene 01', input: 'assets/images/scene_rgb_4877.webp', model: 'assets/models/citylift_5k_4877-compressed.glb', poster: '', video: '', modelSizeMB: 9.53, upAxis: 'y', instanceNodes: [] },
     { id: 'scene-02', label: 'Scene 02', input: 'assets/images/scene_rgb_4765.webp', model: 'assets/models/citylift_5k_4765-compressed.glb', poster: '', video: '', modelSizeMB: 16.6, upAxis: 'y', instanceNodes: [] },
-    { id: 'scene-03', label: 'Scene 03', input: '', model: '', poster: '', video: '', modelSizeMB: null, upAxis: 'y', instanceNodes: [] },
+    { id: 'scene-03', label: 'Scene 03', input: 'assets/images/scene_rgb_4865.webp', model: 'assets/models/citylift_5k_4865-compressed.glb', poster: '', video: '', modelSizeMB: 5.5, upAxis: 'y', instanceNodes: [] },
     { id: 'scene-04', label: 'Scene 04', input: '', model: '', poster: '', video: '', modelSizeMB: null, upAxis: 'y', instanceNodes: [] },
   ],
   // Add the final BibTeX entry when the paper is available. No citation is fabricated.
