@@ -51,6 +51,7 @@ export class SceneViewer {
     this.instances = [];
     this.originalMaterials = new Map();
     this.instanceMaterials = [];
+    this.flatMaterials = new Map();
     this.scene = new THREE.Scene();
     this.scene.background = new THREE.Color(0xffffff);
     this.camera = new THREE.PerspectiveCamera(38, 1, 0.01, 1000);
@@ -179,9 +180,26 @@ export class SceneViewer {
   setAppearance(mode) {
     if (!this.model || this.disposed) return;
     this.model.traverse((mesh) => {
-      if (mesh.isMesh) mesh.material = mode === 'textured' ? this.originalMaterials.get(mesh) : mode === 'geometry' ? this.geometryMaterial : this.neutralMaterial;
+      if (!mesh.isMesh) return;
+      mesh.material = mode === 'textured'
+        ? this.originalMaterials.get(mesh)
+        : this.materialForMesh(mesh, mode === 'geometry' ? this.geometryMaterial : this.neutralMaterial);
     });
-    if (mode === 'instances') this.instances.forEach(({ node }, index) => node.traverse((mesh) => { if (mesh.isMesh) mesh.material = this.instanceMaterials[index]; }));
+    if (mode === 'instances') this.instances.forEach(({ node }, index) => node.traverse((mesh) => {
+      if (mesh.isMesh) mesh.material = this.materialForMesh(mesh, this.instanceMaterials[index]);
+    }));
+  }
+
+  materialForMesh(mesh, material) {
+    if (mesh.geometry.hasAttribute('normal')) return material;
+    // Like GLTFLoader, derive face normals in the shader when the GLB omits NORMAL.
+    // Keep a separate variant so meshes with authored normals retain smooth shading.
+    if (!this.flatMaterials.has(material)) {
+      const flat = material.clone();
+      flat.flatShading = true;
+      this.flatMaterials.set(material, flat);
+    }
+    return this.flatMaterials.get(material);
   }
 
   showInstance(index) {
@@ -215,6 +233,8 @@ export class SceneViewer {
     this.geometryMaterial?.dispose();
     this.neutralMaterial?.dispose();
     for (const material of this.instanceMaterials) material.dispose();
+    for (const material of this.flatMaterials.values()) material.dispose();
+    this.flatMaterials.clear();
     this.instanceMaterials = [];
     this.instances = [];
     this.scene.clear();

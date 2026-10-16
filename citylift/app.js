@@ -212,7 +212,7 @@ async function loadSceneModel(scene, version) {
   sceneStatus.textContent = 'Loading viewer…';
   let viewer = null;
   try {
-    const { SceneViewer } = await import('./viewer.js');
+    const { SceneViewer } = await import('./viewer.js?v=20261016-normals');
     if (selectionVersion !== version) return;
     viewport.replaceChildren();
     viewer = new SceneViewer(viewport);
