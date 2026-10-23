@@ -22,8 +22,8 @@ permalink: /CityLift/
     {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}
   </script>
   <script type="module" src="/projects/CityLift/app.js?v=20261018-projects"></script>
-  <link rel="stylesheet" href="/projects/CityLift/comparisons.css?v=20261023-us02-input">
-  <script type="module" src="/projects/CityLift/comparisons.js?v=20261023-us02"></script>
+  <link rel="stylesheet" href="/projects/CityLift/comparisons.css?v=20261023-scenes">
+  <script type="module" src="/projects/CityLift/comparisons.js?v=20261023-scenes"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -91,21 +91,20 @@ permalink: /CityLift/
       <div class="section-heading">
         <span class="section-kicker">Side-by-side results</span>
         <h2 id="comparisons-heading">Comparisons to Other Methods</h2>
-        <p>One input image. Six generated scenes. One synchronized orbit.</p>
+        <p>Six methods in one synchronized orbit. Choose an input image below to compare.</p>
       </div>
-      <div class="cl-comparison" data-cl-comparison data-cl-asset-base="static/comparisons/us_02/">
-        <figure class="cl-comparison-card cl-comparison-input">
-          <figcaption class="cl-comparison-caption">Input image</figcaption>
-          <a href="/projects/CityLift/static/comparisons/us_02/input.png" target="_blank" rel="noopener noreferrer" aria-label="View the full-resolution input image for this comparison">
-            <img src="/projects/CityLift/static/comparisons/us_02/input.png" alt="Input image of the urban scene used for all six method comparisons" width="1024" height="1024" loading="lazy" decoding="async">
-          </a>
-        </figure>
+      <div class="cl-comparison" data-cl-comparison data-cl-asset-root="static/comparisons/">
         <div class="cl-comparison-grid" data-cl-grid></div>
         <div class="cl-comparison-toolbar">
           <div class="cl-comparison-buttons"><button type="button" class="cl-comparison-play" data-cl-play disabled>Play all</button><button type="button" data-cl-restart disabled>Restart</button></div>
           <label class="cl-comparison-seek"><span class="cl-visually-hidden">Orbit progress</span><input type="range" min="0" max="1000" value="0" step="1" data-cl-seek disabled><span class="cl-comparison-time" data-cl-time>0:00 / 0:08</span></label>
         </div>
         <p class="cl-comparison-status" data-cl-status role="status">Loading rendered previews…</p>
+        <div class="cl-scene-selector">
+          <h3 class="cl-scene-selector-heading">Input images</h3>
+          <p class="cl-scene-selector-hint">Select a scene to compare</p>
+          <div class="cl-scene-choices" data-cl-scenes role="group" aria-label="Choose a comparison scene"></div>
+        </div>
         <noscript><p class="cl-comparison-status">Enable JavaScript to view synchronized comparison videos.</p></noscript>
       </div>
     </section>
