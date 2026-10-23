@@ -1,4 +1,4 @@
-import { comparisonScenes } from './comparison-scenes.js?v=20261023-scenes';
+import { comparisonScenes } from './comparison-scenes.js?v=20261023-us01';
 
 const methods = [
   { id: 'sam3d', label: 'SAM 3D' },
