@@ -1,0 +1,31 @@
+/* Scoped so this component can sit inside the existing CityLift project page. */
+.cl-comparison{--cl-blue:#245dd8;--cl-ink:#242833;--cl-muted:#69717f;--cl-line:#e3e7ed;color:var(--cl-ink);font-family:Inter,"Helvetica Neue",Arial,system-ui,sans-serif;line-height:1.5}
+.cl-comparison *{box-sizing:border-box}
+.cl-comparison [hidden]{display:none!important}
+.cl-comparison-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.cl-comparison-card{margin:0;min-width:0;border:1px solid var(--cl-line);border-radius:10px;overflow:hidden;background:#fff}
+.cl-comparison-card[data-method=citylift]{border-color:#91afea;box-shadow:0 0 0 1px #d8e4fc}
+.cl-comparison-caption{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:45px;margin:0;padding:11px 14px;border-bottom:1px solid #eef0f4;color:var(--cl-ink);font-size:13px;font-weight:600;letter-spacing:0;text-align:left}
+.cl-comparison-card[data-method=citylift] .cl-comparison-caption{color:var(--cl-blue);background:#f7faff}
+.cl-comparison-badge{font-size:10px;font-weight:600;padding:2px 7px;border-radius:4px;background:#eaf0fe;color:var(--cl-blue)}
+.cl-comparison-media{position:relative;aspect-ratio:1;overflow:hidden;background:#fff}
+.cl-comparison-media img,.cl-comparison-media video{display:block;width:100%;height:100%;object-fit:contain;margin:0}
+.cl-comparison-media img{position:absolute;inset:0}
+.cl-comparison-media video{position:relative;opacity:0}
+.cl-comparison-card.cl-has-video video{opacity:1}
+.cl-comparison-unavailable{display:none;position:absolute;inset:auto 10px 12px;text-align:center;color:var(--cl-muted);font-size:11px;background:#fffffff0;padding:5px;border-radius:5px}
+.cl-comparison-card.cl-video-error .cl-comparison-unavailable{display:block}
+.cl-comparison-toolbar{display:flex;align-items:center;gap:20px;padding:18px 0 4px}
+.cl-comparison-buttons{display:flex;gap:8px;flex:none}
+.cl-comparison button{appearance:none;border:1px solid var(--cl-line);background:#fff;color:var(--cl-muted);border-radius:6px;padding:8px 13px;min-height:36px;font:600 12px/1.4 Inter,"Helvetica Neue",Arial,system-ui,sans-serif;cursor:pointer;white-space:nowrap}
+.cl-comparison button.cl-comparison-play{background:var(--cl-blue);border-color:var(--cl-blue);color:#fff;min-width:85px}
+.cl-comparison button:hover:not(:disabled){filter:brightness(.94)}
+.cl-comparison button:disabled{opacity:.45;cursor:default}
+.cl-comparison button:focus-visible,.cl-comparison input:focus-visible{outline:3px solid #9dbbff;outline-offset:3px}
+.cl-comparison-seek{display:flex;align-items:center;gap:14px;min-width:0;flex:1}
+.cl-comparison-seek input{display:block;min-width:40px;flex:1;width:100%;margin:0;accent-color:var(--cl-blue);cursor:pointer}
+.cl-comparison-time{flex:none;min-width:76px;font-size:11px;font-variant-numeric:tabular-nums;color:var(--cl-muted);text-align:right;white-space:nowrap}
+.cl-comparison-status{margin:8px 0 0;font-size:11px;color:var(--cl-muted);min-height:17px;text-align:center}
+.cl-visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:800px){.cl-comparison-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}}
+@media(max-width:480px){.cl-comparison-grid{grid-template-columns:minmax(0,1fr);gap:16px}.cl-comparison-toolbar{flex-wrap:wrap;gap:13px}.cl-comparison-buttons{width:100%}.cl-comparison-buttons button{flex:1}.cl-comparison-seek{flex-basis:100%}.cl-comparison-caption{font-size:13px}}

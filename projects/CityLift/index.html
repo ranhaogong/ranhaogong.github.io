@@ -22,13 +22,15 @@ permalink: /CityLift/
     {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}
   </script>
   <script type="module" src="/projects/CityLift/app.js?v=20261018-projects"></script>
+  <link rel="stylesheet" href="/projects/CityLift/comparisons.css?v=20261023-us02">
+  <script type="module" src="/projects/CityLift/comparisons.js?v=20261023-us02"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <nav class="nav container" aria-label="Main navigation">
       <a class="wordmark" href="#top" aria-label="CityLift home"><img src="/projects/CityLift/favicon.svg" width="25" height="25" alt="">CityLift</a>
-      <div class="nav-links"><a href="#results">Results</a><a href="#method">Method</a><a href="#dataset">Dataset</a><a href="#resources">Resources</a></div>
+      <div class="nav-links"><a href="#results">Results</a><a href="#comparisons">Comparisons</a><a href="#method">Method</a><a href="#dataset">Dataset</a><a href="#resources">Resources</a></div>
     </nav>
   </header>
 
@@ -85,11 +87,20 @@ permalink: /CityLift/
       </div>
     </section>
 
-    <section class="section container" id="composition" aria-labelledby="composition-heading">
-      <div class="section-heading"><span class="section-kicker">Compositional by design</span><h2 id="composition-heading">From buildings to urban scenes</h2><p>Independent assets create room for editing and new compositions.</p></div>
-      <div class="composition-grid">
-        <figure><div id="editing-media" class="media-slot composition-slot"><div class="placeholder"><span class="placeholder-symbol" aria-hidden="true">◇</span><span class="placeholder-title">Instance-level editing</span><span class="placeholder-note">Demonstration coming soon</span></div></div><figcaption>Inspect individual buildings and edit their placement within a scene.</figcaption></figure>
-        <figure><div id="composition-media" class="media-slot composition-slot"><div class="placeholder"><span class="placeholder-symbol" aria-hidden="true">◇</span><span class="placeholder-title">Scene composition</span><span class="placeholder-note">Demonstration coming soon</span></div></div><figcaption>Assemble generated scene blocks into larger urban compositions.</figcaption></figure>
+    <section class="section container" id="comparisons" aria-labelledby="comparisons-heading">
+      <div class="section-heading">
+        <span class="section-kicker">Side-by-side results</span>
+        <h2 id="comparisons-heading">Comparisons to Other Methods</h2>
+        <p>Six generated scenes. One synchronized orbit.</p>
+      </div>
+      <div class="cl-comparison" data-cl-comparison data-cl-asset-base="static/comparisons/us_02/">
+        <div class="cl-comparison-grid" data-cl-grid></div>
+        <div class="cl-comparison-toolbar">
+          <div class="cl-comparison-buttons"><button type="button" class="cl-comparison-play" data-cl-play disabled>Play all</button><button type="button" data-cl-restart disabled>Restart</button></div>
+          <label class="cl-comparison-seek"><span class="cl-visually-hidden">Orbit progress</span><input type="range" min="0" max="1000" value="0" step="1" data-cl-seek disabled><span class="cl-comparison-time" data-cl-time>0:00 / 0:08</span></label>
+        </div>
+        <p class="cl-comparison-status" data-cl-status role="status">Loading rendered previews…</p>
+        <noscript><p class="cl-comparison-status">Enable JavaScript to view synchronized comparison videos.</p></noscript>
       </div>
     </section>
 
