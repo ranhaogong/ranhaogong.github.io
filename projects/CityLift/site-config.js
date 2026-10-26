@@ -19,7 +19,7 @@ export const siteConfig = {
     editing: { type: 'video', src: '', poster: '', alt: 'Editing individual generated buildings' },
     composition: { type: 'video', src: '', poster: '', alt: 'Composing generated urban scene blocks' },
     method: { type: 'image', src: 'assets/images/method.webp', alt: 'The three stages of the CityLift framework' },
-    dataset: { type: 'image', src: '', alt: 'Examples from the CityLift-5K dataset' },
+    dataset: { type: 'video', src: 'assets/videos/citylift5k_intro_web.mp4', poster: 'assets/images/citylift5k-video-poster.webp', alt: 'CityLift-5K dataset overview: urban scenes, paired images and instance masks, and building annotations' },
   },
   scenes: [
     { id: 'scene-01', label: 'Scene 01', input: 'assets/images/scene_rgb_4877.webp', model: 'assets/models/citylift_5k_4877-compressed.glb', poster: '', video: '', modelSizeMB: 9.53, upAxis: 'y', instanceNodes: [] },

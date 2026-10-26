@@ -21,7 +21,8 @@ CityLift 项目主页源码位于 `ranhaogong/ranhaogong.github.io` 仓库的 `p
 | --- | --- | --- |
 | 首页头图 | `assets/images/teaser.webp` | `media.teaser.src` |
 | 方法图 | `assets/images/method.webp` | `media.method.src` |
-| 数据集拼图 | `assets/images/dataset.webp` | `media.dataset.src` |
+| 数据集介绍视频 | `assets/videos/citylift5k_intro_web.mp4` | `media.dataset.src`（`type: 'video'`） |
+| 数据集视频封面 | `assets/images/citylift5k-video-poster.webp` | `media.dataset.poster` |
 | 单体编辑视频 | `assets/videos/editing.mp4` | `media.editing.src` |
 | 场景组装视频 | `assets/videos/composition.mp4` | `media.composition.src` |
 | 第一个场景输入图 | `assets/images/scene-01.webp` | `scenes[0].input` |

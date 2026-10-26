@@ -1,4 +1,4 @@
-import { siteConfig } from './site-config.js?v=20261026-citation-article';
+import { siteConfig } from './site-config.js?v=20261026-dataset-video';
 
 const $ = (selector) => document.querySelector(selector);
 const icons = {
