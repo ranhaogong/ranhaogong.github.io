@@ -1,4 +1,4 @@
-import { siteConfig } from './site-config.js';
+import { siteConfig } from './site-config.js?v=20261026-arxiv';
 
 const $ = (selector) => document.querySelector(selector);
 const icons = {

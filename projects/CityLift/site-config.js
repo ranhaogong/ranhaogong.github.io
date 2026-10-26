@@ -27,6 +27,14 @@ export const siteConfig = {
     { id: 'scene-03', label: 'Scene 03', input: 'assets/images/scene_rgb_4865.webp', model: 'assets/models/citylift_5k_4865-compressed.glb', poster: '', video: '', modelSizeMB: 5.5, upAxis: 'y', instanceNodes: [] },
     { id: 'scene-04', label: 'Scene 04', input: 'assets/images/scene_rgb_4998.webp', model: 'assets/models/citylift_5k_4998-compressed.glb', poster: '', video: '', modelSizeMB: 11.4, upAxis: 'y', instanceNodes: [] },
   ],
-  // Add the final BibTeX entry when the paper is available. No citation is fabricated.
-  citation: '',
+  // Citation metadata from the published arXiv record.
+  citation: `@misc{gong2026citylift,
+  title         = {{CityLift}: Compositional {3D} Urban Generation from a Single Image},
+  author        = {Haoran Gong and Jie Feng and Chenxu Wang},
+  year          = {2026},
+  eprint        = {2610.32728},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2610.32728}
+}`,
 };
