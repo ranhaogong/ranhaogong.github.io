@@ -12,7 +12,7 @@ export const siteConfig = {
     { id: 2, name: 'Zhongguancun Academy' },
   ],
   // A nonempty URL turns the matching Coming soon label into a working link.
-  links: { paper: '', code: '', dataset: '' },
+  links: { paper: 'https://arxiv.org/abs/2610.32728', code: '', dataset: '' },
   // type: 'image' or 'video'; poster is optional and only used for videos.
   media: {
     teaser: { type: 'image', src: 'assets/images/teaser.webp', alt: 'CityLift input images and generated urban scenes' },
