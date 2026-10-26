@@ -1,4 +1,4 @@
-import { siteConfig } from './site-config.js?v=20261026-arxiv';
+import { siteConfig } from './site-config.js?v=20261026-citation-article';
 
 const $ = (selector) => document.querySelector(selector);
 const icons = {

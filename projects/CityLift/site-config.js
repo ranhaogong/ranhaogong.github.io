@@ -28,13 +28,10 @@ export const siteConfig = {
     { id: 'scene-04', label: 'Scene 04', input: 'assets/images/scene_rgb_4998.webp', model: 'assets/models/citylift_5k_4998-compressed.glb', poster: '', video: '', modelSizeMB: 11.4, upAxis: 'y', instanceNodes: [] },
   ],
   // Citation metadata from the published arXiv record.
-  citation: `@misc{gong2026citylift,
-  title         = {{CityLift}: Compositional {3D} Urban Generation from a Single Image},
-  author        = {Haoran Gong and Jie Feng and Chenxu Wang},
-  year          = {2026},
-  eprint        = {2610.32728},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV},
-  url           = {https://arxiv.org/abs/2610.32728}
+  citation: `@article{gong2026citylift,
+  title={CityLift: Compositional 3D Urban Generation from a Single Image},
+  author={Gong, Haoran and Feng, Jie and Wang, Chenxu},
+  journal={arXiv preprint arXiv:2610.32728},
+  year={2026}
 }`,
 };
