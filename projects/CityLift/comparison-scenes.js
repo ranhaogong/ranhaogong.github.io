@@ -3,4 +3,6 @@
 export const comparisonScenes = [
   { id: 'us_02', label: 'Scene 01', directory: 'us_02/', input: 'input.png', duration: 8 },
   { id: 'us_01', label: 'Scene 02', directory: 'us_01/', input: 'input.png', duration: 8 },
+  { id: 'citylift_5k_4877', label: 'Scene 03', directory: 'citylift_5k_4877/', input: 'input.png', duration: 8 },
+  { id: 'citylift_5k_4765', label: 'Scene 04', directory: 'citylift_5k_4765/', input: 'input.png', duration: 8 },
 ];
